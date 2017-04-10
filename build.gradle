@@ -1,0 +1,9 @@
+apply plugin: 'nested-dsl-plugin'
+
+outist {
+    outer {
+        inner {
+            method('message')
+        }
+    }
+}
